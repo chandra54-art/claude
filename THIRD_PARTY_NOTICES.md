@@ -5,6 +5,17 @@
 Vendored, unmodified, from [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)
 (`productivity/reflect`), under the MIT License:
 
+## plugins/engineering-skills
+
+Vendored, unmodified, from [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)
+(`engineering-team/.claude-plugin` + `engineering-team/skills`), under the MIT License. Note: the upstream
+`engineering-team/` directory also bundles several separate standalone plugins (`playwright-pro`,
+`self-improving-agent`, `a11y-audit`, `google-workspace-cli`, `snowflake-development`) alongside the
+`engineering-skills` plugin's own `skills/` folder — only the latter was vendored here, since only
+`engineering-skills` was requested.
+
+Both plugins are covered by the same license text:
+
 ```
 MIT License
 

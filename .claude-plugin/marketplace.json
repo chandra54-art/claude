@@ -4,9 +4,9 @@
     "name": "chandra54-art",
     "url": "https://github.com/chandra54-art"
   },
-  "description": "A Claude Code plugin marketplace. Currently ships the 'reflect' skill, vendored (MIT, unmodified) from alirezarezvani/claude-skills. For the full 300+ skill library this plugin was drawn from, also run `/plugin marketplace add alirezarezvani/claude-skills`.",
+  "description": "A Claude Code plugin marketplace. Currently ships the 'reflect' and 'engineering-skills' plugins, vendored (MIT, unmodified) from alirezarezvani/claude-skills. For the full 300+ skill library these were drawn from, also run `/plugin marketplace add alirezarezvani/claude-skills`.",
   "metadata": {
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -25,6 +25,28 @@
         "productivity"
       ],
       "category": "productivity"
+    },
+    {
+      "name": "engineering-skills",
+      "source": "./plugins/engineering-skills",
+      "description": "32 production-ready engineering skills: architecture, frontend, backend, fullstack, QA, DevOps, security (adversarial-reviewer, ai-security, cloud-security, incident-response, red-team, threat-detection), AI/ML, data engineering, Stripe integration, TDD guide, a11y, Snowflake, and senior-* specialist skills (frontend/backend/fullstack/devops/qa/security/data/ml/etc.).",
+      "version": "2.9.0",
+      "author": {
+        "name": "Alireza Rezvani",
+        "url": "https://alirezarezvani.com"
+      },
+      "keywords": [
+        "engineering",
+        "architecture",
+        "frontend",
+        "backend",
+        "devops",
+        "security",
+        "ai",
+        "ml",
+        "data"
+      ],
+      "category": "development"
     }
   ]
 }

@@ -12,15 +12,21 @@ A [Claude Code](https://claude.com/claude-code) plugin marketplace.
 
 ```
 /plugin install reflect@chandra54-art-marketplace
+/plugin install engineering-skills@chandra54-art-marketplace
 ```
 
 ## What's here
 
 - **reflect** — a mid-conversation reflection skill that pauses execution and
   zooms out from detail-mode to honestly reassess direction, assumptions, and
-  bias against the original goal. Vendored unmodified from
-  [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)
-  under the MIT License (see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)).
+  bias against the original goal.
+- **engineering-skills** — 32 engineering skills (architecture, frontend,
+  backend, fullstack, QA, DevOps, security, AI/ML, data engineering, Stripe
+  integration, TDD, a11y, Snowflake, and senior-* specialist skills).
+
+Both are vendored unmodified from
+[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)
+under the MIT License (see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)).
 
 `alirezarezvani/claude-skills` is a much larger library (300+ skills across
 engineering, product, marketing, finance, and more). To pull in the full set
