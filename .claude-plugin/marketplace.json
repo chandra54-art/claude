@@ -1,0 +1,30 @@
+{
+  "name": "chandra54-art-marketplace",
+  "owner": {
+    "name": "chandra54-art",
+    "url": "https://github.com/chandra54-art"
+  },
+  "description": "A Claude Code plugin marketplace. Currently ships the 'reflect' skill, vendored (MIT, unmodified) from alirezarezvani/claude-skills. For the full 300+ skill library this plugin was drawn from, also run `/plugin marketplace add alirezarezvani/claude-skills`.",
+  "metadata": {
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "reflect",
+      "source": "./plugins/reflect",
+      "description": "Mid-conversation reflection skill that pauses execution and zooms out from detail-mode to honestly reassess direction, assumptions, and bias against the original goal.",
+      "version": "2.9.0",
+      "author": {
+        "name": "Alireza Rezvani",
+        "url": "https://alirezarezvani.com"
+      },
+      "keywords": [
+        "reflect",
+        "reassess",
+        "bias-check",
+        "productivity"
+      ],
+      "category": "productivity"
+    }
+  ]
+}
