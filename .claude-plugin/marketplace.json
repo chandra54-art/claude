@@ -4,9 +4,9 @@
     "name": "chandra54-art",
     "url": "https://github.com/chandra54-art"
   },
-  "description": "A Claude Code plugin marketplace. Currently ships the 'reflect' and 'engineering-skills' plugins, vendored (MIT, unmodified) from alirezarezvani/claude-skills. For the full 300+ skill library these were drawn from, also run `/plugin marketplace add alirezarezvani/claude-skills`.",
+  "description": "A Claude Code plugin marketplace. Currently ships the 'reflect', 'engineering-skills', and 'caveman' plugins, vendored (MIT, unmodified) from alirezarezvani/claude-skills. For the full 300+ skill library these were drawn from, also run `/plugin marketplace add alirezarezvani/claude-skills`.",
   "metadata": {
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "plugins": [
     {
@@ -45,6 +45,23 @@
         "ai",
         "ml",
         "data"
+      ],
+      "category": "development"
+    },
+    {
+      "name": "caveman",
+      "source": "./plugins/caveman",
+      "description": "Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy. Enhanced from Matt Pocock's MIT-licensed caveman skill.",
+      "version": "2.9.0",
+      "author": {
+        "name": "Alireza Rezvani",
+        "url": "https://alirezarezvani.com"
+      },
+      "keywords": [
+        "caveman",
+        "token-compression",
+        "terse-mode",
+        "cost-reduction"
       ],
       "category": "development"
     }

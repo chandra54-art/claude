@@ -14,7 +14,15 @@ Vendored, unmodified, from [alirezarezvani/claude-skills](https://github.com/ali
 `engineering-skills` plugin's own `skills/` folder — only the latter was vendored here, since only
 `engineering-skills` was requested.
 
-Both plugins are covered by the same license text:
+## plugins/caveman
+
+Vendored, unmodified, from [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)
+(`engineering/caveman`), under the MIT License. This plugin is itself derived from Matt Pocock's
+MIT-licensed [caveman skill](https://github.com/mattpocock/skills), with Matt's original voice and
+persistence rules preserved verbatim per its MIT license, plus Alireza Rezvani's own additions
+(Python tooling, reference docs, persona agent, slash command). Both licensors' copyrights apply.
+
+All plugins vendored here are covered by the same MIT license text:
 
 ```
 MIT License

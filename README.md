@@ -13,6 +13,7 @@ A [Claude Code](https://claude.com/claude-code) plugin marketplace.
 ```
 /plugin install reflect@chandra54-art-marketplace
 /plugin install engineering-skills@chandra54-art-marketplace
+/plugin install caveman@chandra54-art-marketplace
 ```
 
 ## What's here
@@ -23,8 +24,11 @@ A [Claude Code](https://claude.com/claude-code) plugin marketplace.
 - **engineering-skills** — 32 engineering skills (architecture, frontend,
   backend, fullstack, QA, DevOps, security, AI/ML, data engineering, Stripe
   integration, TDD, a11y, Snowflake, and senior-* specialist skills).
+- **caveman** — ultra-compressed communication mode that drops filler,
+  articles, and pleasantries while keeping full technical accuracy (~75%
+  token savings); enhanced from Matt Pocock's MIT-licensed `caveman` skill.
 
-Both are vendored unmodified from
+All three are vendored unmodified from
 [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)
 under the MIT License (see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)).
 
